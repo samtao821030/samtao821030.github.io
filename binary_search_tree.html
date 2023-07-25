@@ -1,0 +1,2226 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Binary Search Tree</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/binary_search_tree/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/binary_search_tree/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u0" class="ax_default heading_3">
+        <div id="u0_div" class=""></div>
+        <div id="u0_text" class="text ">
+          <p><span style="color:#D9001B;">Question1:</span><span> Consider a binary search tree(without balancing) that is initially empty. Adding the following elements</span></p><p><span>to the tree(in the given order from left to right),and show what the tree looks like after each addition </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1" class="ax_default heading_3">
+        <div id="u1_div" class=""></div>
+        <div id="u1_text" class="text ">
+          <p><span>75 30 58 88 42 15 63 25 97 10 83 50</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u2" class="ax_default ellipse">
+        <img id="u2_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u2_text" class="text ">
+          <p><span>75</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u3" class="ax_default label">
+        <div id="u3_div" class=""></div>
+        <div id="u3_text" class="text ">
+          <p><span>root</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Line) -->
+      <div id="u4" class="compound ax_default arrow" data-height="3" data-width="107" CompoundMode="true">
+        <img id="u4_img" class="singleImg img " src="images/binary_search_tree/u4.svg"/>
+        <div id="u4p000" class="ax_vector_shape" WidgetTopLeftX="-0.473214285714286" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.482142857142857" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.473214285714286" WidgetBottomLeftY="0.333333333333333" WidgetBottomRightX="0.482142857142857" WidgetBottomRightY="0.333333333333333">
+          <img id="u4p000_img" class="img " src="images/binary_search_tree/u4p000.svg"/>
+        </div>
+        <div id="u4p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.5" WidgetTopRightX="17.8333333333333" WidgetTopRightY="-0.5" WidgetBottomLeftX="0" WidgetBottomLeftY="0.25" WidgetBottomRightX="17.8333333333333" WidgetBottomRightY="0.25">
+          <img id="u4p001_img" class="img " src="images/binary_search_tree/u4p001.svg"/>
+        </div>
+        <div id="u4p002" class="ax_vector_shape" WidgetTopLeftX="3.84615384615385" WidgetTopLeftY="0.0384615384615385" WidgetTopRightX="-0.269230769230769" WidgetTopRightY="0.0384615384615385" WidgetBottomLeftX="3.84615384615385" WidgetBottomLeftY="-0.0769230769230769" WidgetBottomRightX="-0.269230769230769" WidgetBottomRightY="-0.0769230769230769">
+          <img id="u4p002_img" class="img " src="images/binary_search_tree/u4p002.svg"/>
+        </div>
+        <div id="u4_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u5" class="ax_default label">
+        <div id="u5_div" class=""></div>
+        <div id="u5_text" class="text ">
+          <p><span>30&lt;75</span></p><p><span>left</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u6" class="ax_default ellipse">
+        <img id="u6_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u6_text" class="text ">
+          <p><span>75</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u7" class="ax_default ellipse">
+        <img id="u7_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u7_text" class="text ">
+          <p><span>30</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u8" class="ax_default connector">
+        <img id="u8_seg0" class="img " src="images/binary_search_tree/u8_seg0.svg" alt="u8_seg0"/>
+        <div id="u8_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Line) -->
+      <div id="u9" class="compound ax_default arrow" data-height="3" data-width="107" CompoundMode="true">
+        <img id="u9_img" class="singleImg img " src="images/binary_search_tree/u4.svg"/>
+        <div id="u9p000" class="ax_vector_shape" WidgetTopLeftX="-0.473214285714286" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.482142857142857" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.473214285714286" WidgetBottomLeftY="0.333333333333333" WidgetBottomRightX="0.482142857142857" WidgetBottomRightY="0.333333333333333">
+          <img id="u9p000_img" class="img " src="images/binary_search_tree/u9p000.svg"/>
+        </div>
+        <div id="u9p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.5" WidgetTopRightX="17.8333333333333" WidgetTopRightY="-0.5" WidgetBottomLeftX="0" WidgetBottomLeftY="0.25" WidgetBottomRightX="17.8333333333333" WidgetBottomRightY="0.25">
+          <img id="u9p001_img" class="img " src="images/binary_search_tree/u9p001.svg"/>
+        </div>
+        <div id="u9p002" class="ax_vector_shape" WidgetTopLeftX="3.84615384615385" WidgetTopLeftY="0.0384615384615385" WidgetTopRightX="-0.269230769230769" WidgetTopRightY="0.0384615384615385" WidgetBottomLeftX="3.84615384615385" WidgetBottomLeftY="-0.0769230769230769" WidgetBottomRightX="-0.269230769230769" WidgetBottomRightY="-0.0769230769230769">
+          <img id="u9p002_img" class="img " src="images/binary_search_tree/u9p002.svg"/>
+        </div>
+        <div id="u9_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u10" class="ax_default label">
+        <div id="u10_div" class=""></div>
+        <div id="u10_text" class="text ">
+          <p><span>58&lt;75</span></p><p><span>58&gt;30</span></p><p><span>right</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u11" class="ax_default ellipse">
+        <img id="u11_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u11_text" class="text ">
+          <p><span>75</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u12" class="ax_default ellipse">
+        <img id="u12_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u12_text" class="text ">
+          <p><span>30</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u13" class="ax_default ellipse">
+        <img id="u13_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u13_text" class="text ">
+          <p><span>58</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u14" class="ax_default connector">
+        <img id="u14_seg0" class="img " src="images/binary_search_tree/u14_seg0.svg" alt="u14_seg0"/>
+        <div id="u14_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u15" class="ax_default connector">
+        <img id="u15_seg0" class="img " src="images/binary_search_tree/u15_seg0.svg" alt="u15_seg0"/>
+        <div id="u15_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Line) -->
+      <div id="u16" class="compound ax_default arrow" data-height="3" data-width="107" CompoundMode="true">
+        <img id="u16_img" class="singleImg img " src="images/binary_search_tree/u4.svg"/>
+        <div id="u16p000" class="ax_vector_shape" WidgetTopLeftX="-0.482142857142857" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.473214285714286" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.482142857142857" WidgetBottomLeftY="0.333333333333333" WidgetBottomRightX="0.473214285714286" WidgetBottomRightY="0.333333333333333">
+          <img id="u16p000_img" class="img " src="images/binary_search_tree/u16p000.svg"/>
+        </div>
+        <div id="u16p001" class="ax_vector_shape" WidgetTopLeftX="-0.166666666666667" WidgetTopLeftY="-0.5" WidgetTopRightX="17.6666666666667" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.166666666666667" WidgetBottomLeftY="0.25" WidgetBottomRightX="17.6666666666667" WidgetBottomRightY="0.25">
+          <img id="u16p001_img" class="img " src="images/binary_search_tree/u16p001.svg"/>
+        </div>
+        <div id="u16p002" class="ax_vector_shape" WidgetTopLeftX="3.57142857142857" WidgetTopLeftY="0.0384615384615385" WidgetTopRightX="-0.25" WidgetTopRightY="0.0384615384615385" WidgetBottomLeftX="3.57142857142857" WidgetBottomLeftY="-0.0769230769230769" WidgetBottomRightX="-0.25" WidgetBottomRightY="-0.0769230769230769">
+          <img id="u16p002_img" class="img " src="images/binary_search_tree/u16p002.svg"/>
+        </div>
+        <div id="u16_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u17" class="ax_default label">
+        <div id="u17_div" class=""></div>
+        <div id="u17_text" class="text ">
+          <p><span>88&gt;75</span></p><p><span>right</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u18" class="ax_default" data-left="816" data-top="168" data-width="164" data-height="209" layer-opacity="1">
+
+        <!-- Unnamed (Group) -->
+        <div id="u19" class="ax_default" data-left="816" data-top="168" data-width="97" data-height="209" layer-opacity="1">
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u20" class="ax_default ellipse">
+            <img id="u20_img" class="img " src="images/binary_search_tree/u2.svg"/>
+            <div id="u20_text" class="text ">
+              <p><span>75</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u21" class="ax_default ellipse">
+            <img id="u21_img" class="img " src="images/binary_search_tree/u2.svg"/>
+            <div id="u21_text" class="text ">
+              <p><span>30</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u22" class="ax_default ellipse">
+            <img id="u22_img" class="img " src="images/binary_search_tree/u2.svg"/>
+            <div id="u22_text" class="text ">
+              <p><span>58</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Connector) -->
+          <div id="u23" class="ax_default connector">
+            <img id="u23_seg0" class="img " src="images/binary_search_tree/u23_seg0.svg" alt="u23_seg0"/>
+            <div id="u23_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Connector) -->
+          <div id="u24" class="ax_default connector">
+            <img id="u24_seg0" class="img " src="images/binary_search_tree/u24_seg0.svg" alt="u24_seg0"/>
+            <div id="u24_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u25" class="ax_default ellipse">
+          <img id="u25_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u25_text" class="text ">
+            <p><span>88</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u26" class="ax_default connector">
+          <img id="u26_seg0" class="img " src="images/binary_search_tree/u26_seg0.svg" alt="u26_seg0"/>
+          <div id="u26_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u27" class="ax_default" data-left="824" data-top="491" data-width="164" data-height="281" layer-opacity="1">
+
+        <!-- Unnamed (Group) -->
+        <div id="u28" class="ax_default" data-left="824" data-top="491" data-width="164" data-height="209" layer-opacity="1">
+
+          <!-- Unnamed (Group) -->
+          <div id="u29" class="ax_default" data-left="824" data-top="491" data-width="97" data-height="209" layer-opacity="1">
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u30" class="ax_default ellipse">
+              <img id="u30_img" class="img " src="images/binary_search_tree/u2.svg"/>
+              <div id="u30_text" class="text ">
+                <p><span>75</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u31" class="ax_default ellipse">
+              <img id="u31_img" class="img " src="images/binary_search_tree/u2.svg"/>
+              <div id="u31_text" class="text ">
+                <p><span>30</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u32" class="ax_default ellipse">
+              <img id="u32_img" class="img " src="images/binary_search_tree/u2.svg"/>
+              <div id="u32_text" class="text ">
+                <p><span>58</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Connector) -->
+            <div id="u33" class="ax_default connector">
+              <img id="u33_seg0" class="img " src="images/binary_search_tree/u33_seg0.svg" alt="u33_seg0"/>
+              <div id="u33_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Connector) -->
+            <div id="u34" class="ax_default connector">
+              <img id="u34_seg0" class="img " src="images/binary_search_tree/u34_seg0.svg" alt="u34_seg0"/>
+              <div id="u34_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u35" class="ax_default ellipse">
+            <img id="u35_img" class="img " src="images/binary_search_tree/u2.svg"/>
+            <div id="u35_text" class="text ">
+              <p><span>88</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Connector) -->
+          <div id="u36" class="ax_default connector">
+            <img id="u36_seg0" class="img " src="images/binary_search_tree/u36_seg0.svg" alt="u36_seg0"/>
+            <div id="u36_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u37" class="ax_default ellipse">
+          <img id="u37_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u37_text" class="text ">
+            <p><span>42</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u38" class="ax_default connector">
+          <img id="u38_seg0" class="img " src="images/binary_search_tree/u38_seg0.svg" alt="u38_seg0"/>
+          <div id="u38_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u39" class="compound ax_default arrow" data-height="104" data-width="3" CompoundMode="true">
+        <img id="u39_img" class="singleImg img " src="images/binary_search_tree/u39.svg"/>
+        <div id="u39p000" class="ax_vector_shape" WidgetTopLeftX="-0.472727272727273" WidgetTopLeftY="0.166666666666667" WidgetTopRightX="-0.472727272727273" WidgetTopRightY="-0.333333333333333" WidgetBottomLeftX="0.472727272727273" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.472727272727273" WidgetBottomRightY="-0.333333333333333">
+          <img id="u39p000_img" class="img " src="images/binary_search_tree/u39p000.svg"/>
+        </div>
+        <div id="u39p001" class="ax_vector_shape" WidgetTopLeftX="-0.5" WidgetTopLeftY="0" WidgetTopRightX="0.25" WidgetTopRightY="0" WidgetBottomLeftX="-0.5" WidgetBottomLeftY="17.3333333333333" WidgetBottomRightX="0.25" WidgetBottomRightY="17.3333333333333">
+          <img id="u39p001_img" class="img " src="images/binary_search_tree/u39p001.svg"/>
+        </div>
+        <div id="u39p002" class="ax_vector_shape" WidgetTopLeftX="3.46428571428571" WidgetTopLeftY="-0.0714285714285714" WidgetTopRightX="3.46428571428571" WidgetTopRightY="0.0357142857142857" WidgetBottomLeftX="-0.25" WidgetBottomLeftY="-0.0714285714285714" WidgetBottomRightX="-0.25" WidgetBottomRightY="0.0357142857142857">
+          <img id="u39p002_img" class="img " src="images/binary_search_tree/u39p002.svg"/>
+        </div>
+        <div id="u39_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u40" class="ax_default label">
+        <div id="u40_div" class=""></div>
+        <div id="u40_text" class="text ">
+          <p><span>42&lt;75</span></p><p><span>42&gt;30</span></p><p><span>42&lt;58</span></p><p><span>left</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Line) -->
+      <div id="u41" class="compound ax_default arrow" data-height="3" data-width="132" CompoundMode="true">
+        <img id="u41_img" class="singleImg img " src="images/binary_search_tree/u41.svg"/>
+        <div id="u41p000" class="ax_vector_shape" WidgetTopLeftX="-0.464693727491206" WidgetTopLeftY="-0.250763291114776" WidgetTopRightX="0.464856236226124" WidgetTopRightY="-0.149227833539511" WidgetBottomLeftX="-0.464856236226122" WidgetBottomLeftY="0.0492278335394539" WidgetBottomRightX="0.464693727491209" WidgetBottomRightY="0.150763291114719">
+          <img id="u41p000_img" class="img " src="images/binary_search_tree/u41p000.svg"/>
+        </div>
+        <div id="u41p001" class="ax_vector_shape" WidgetTopLeftX="-0.00224844937476594" WidgetTopLeftY="0.0846054851912754" WidgetTopRightX="-22.0015975906849" WidgetTopRightY="-0.0846202774341691" WidgetBottomLeftX="0.00159759068490454" WidgetBottomLeftY="-0.415379722565774" WidgetBottomRightX="-21.9977515506253" WidgetBottomRightY="-0.584605485191219">
+          <img id="u41p001_img" class="img " src="images/binary_search_tree/u41p001.svg"/>
+        </div>
+        <div id="u41p002" class="ax_vector_shape" WidgetTopLeftX="4.46380390370541" WidgetTopLeftY="0.0964474196595251" WidgetTopRightX="-0.250342340861055" WidgetTopRightY="0.0573953205921148" WidgetBottomLeftX="4.46462805514677" WidgetBottomLeftY="-0.0189337821305632" WidgetBottomRightX="-0.249518189419697" WidgetBottomRightY="-0.0579858811979735">
+          <img id="u41p002_img" class="img " src="images/binary_search_tree/u41p002.svg"/>
+        </div>
+        <div id="u41_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u42" class="ax_default label">
+        <div id="u42_div" class=""></div>
+        <div id="u42_text" class="text ">
+          <p><span>15&lt;75</span></p><p><span>15&lt;30</span></p><p><span>left</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u43" class="ax_default" data-left="463" data-top="481" data-width="212" data-height="281" layer-opacity="1">
+
+        <!-- Unnamed (Group) -->
+        <div id="u44" class="ax_default" data-left="511" data-top="481" data-width="164" data-height="281" layer-opacity="1">
+
+          <!-- Unnamed (Group) -->
+          <div id="u45" class="ax_default" data-left="511" data-top="481" data-width="164" data-height="209" layer-opacity="1">
+
+            <!-- Unnamed (Group) -->
+            <div id="u46" class="ax_default" data-left="511" data-top="481" data-width="97" data-height="209" layer-opacity="1">
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u47" class="ax_default ellipse">
+                <img id="u47_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                <div id="u47_text" class="text ">
+                  <p><span>75</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u48" class="ax_default ellipse">
+                <img id="u48_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                <div id="u48_text" class="text ">
+                  <p><span>30</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u49" class="ax_default ellipse">
+                <img id="u49_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                <div id="u49_text" class="text ">
+                  <p><span>58</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Connector) -->
+              <div id="u50" class="ax_default connector">
+                <img id="u50_seg0" class="img " src="images/binary_search_tree/u50_seg0.svg" alt="u50_seg0"/>
+                <div id="u50_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Connector) -->
+              <div id="u51" class="ax_default connector">
+                <img id="u51_seg0" class="img " src="images/binary_search_tree/u51_seg0.svg" alt="u51_seg0"/>
+                <div id="u51_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u52" class="ax_default ellipse">
+              <img id="u52_img" class="img " src="images/binary_search_tree/u2.svg"/>
+              <div id="u52_text" class="text ">
+                <p><span>88</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Connector) -->
+            <div id="u53" class="ax_default connector">
+              <img id="u53_seg0" class="img " src="images/binary_search_tree/u53_seg0.svg" alt="u53_seg0"/>
+              <div id="u53_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u54" class="ax_default ellipse">
+            <img id="u54_img" class="img " src="images/binary_search_tree/u2.svg"/>
+            <div id="u54_text" class="text ">
+              <p><span>42</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Connector) -->
+          <div id="u55" class="ax_default connector">
+            <img id="u55_seg0" class="img " src="images/binary_search_tree/u55_seg0.svg" alt="u55_seg0"/>
+            <div id="u55_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u56" class="ax_default ellipse">
+          <img id="u56_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u56_text" class="text ">
+            <p><span>15</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u57" class="ax_default connector">
+          <img id="u57_seg0" class="img " src="images/binary_search_tree/u57_seg0.svg" alt="u57_seg0"/>
+          <div id="u57_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Line) -->
+      <div id="u58" class="compound ax_default arrow" data-height="3" data-width="132" CompoundMode="true">
+        <img id="u58_img" class="singleImg img " src="images/binary_search_tree/u41.svg"/>
+        <div id="u58p000" class="ax_vector_shape" WidgetTopLeftX="-0.47133220931251" WidgetTopLeftY="-0.250763291114742" WidgetTopRightX="0.471497039600782" WidgetTopRightY="-0.149227833539465" WidgetBottomLeftX="-0.471497039600781" WidgetBottomLeftY="0.049227833539488" WidgetBottomRightX="0.471332209312511" WidgetBottomRightY="0.150763291114764">
+          <img id="u58p000_img" class="img " src="images/binary_search_tree/u58p000.svg"/>
+        </div>
+        <div id="u58p001" class="ax_vector_shape" WidgetTopLeftX="-0.168915116041423" WidgetTopLeftY="0.0846054851912375" WidgetTopRightX="-22.1682642573516" WidgetTopRightY="-0.084620277434226" WidgetBottomLeftX="-0.165069075981762" WidgetBottomLeftY="-0.415379722565812" WidgetBottomRightX="-22.1644182172919" WidgetBottomRightY="-0.584605485191275">
+          <img id="u58p001_img" class="img " src="images/binary_search_tree/u58p001.svg"/>
+        </div>
+        <div id="u58p002" class="ax_vector_shape" WidgetTopLeftX="4.16621697679172" WidgetTopLeftY="0.0964474196595164" WidgetTopRightX="-0.233652851470316" WidgetTopRightY="0.0573953205921017" WidgetBottomLeftX="4.16698618480365" WidgetBottomLeftY="-0.018933782130572" WidgetBottomRightX="-0.232883643458384" WidgetBottomRightY="-0.0579858811979866">
+          <img id="u58p002_img" class="img " src="images/binary_search_tree/u58p002.svg"/>
+        </div>
+        <div id="u58_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u59" class="ax_default label">
+        <div id="u59_div" class=""></div>
+        <div id="u59_text" class="text ">
+          <p><span>63&lt;75</span></p><p><span>63&gt;30</span></p><p><span>63&gt;58</span></p><p><span>right</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u60" class="ax_default" data-left="98" data-top="467" data-width="212" data-height="281" layer-opacity="1">
+
+        <!-- Unnamed (Group) -->
+        <div id="u61" class="ax_default" data-left="98" data-top="467" data-width="212" data-height="281" layer-opacity="1">
+
+          <!-- Unnamed (Group) -->
+          <div id="u62" class="ax_default" data-left="146" data-top="467" data-width="164" data-height="281" layer-opacity="1">
+
+            <!-- Unnamed (Group) -->
+            <div id="u63" class="ax_default" data-left="146" data-top="467" data-width="164" data-height="209" layer-opacity="1">
+
+              <!-- Unnamed (Group) -->
+              <div id="u64" class="ax_default" data-left="146" data-top="467" data-width="97" data-height="209" layer-opacity="1">
+
+                <!-- Unnamed (Ellipse) -->
+                <div id="u65" class="ax_default ellipse">
+                  <img id="u65_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                  <div id="u65_text" class="text ">
+                    <p><span>75</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Ellipse) -->
+                <div id="u66" class="ax_default ellipse">
+                  <img id="u66_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                  <div id="u66_text" class="text ">
+                    <p><span>30</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Ellipse) -->
+                <div id="u67" class="ax_default ellipse">
+                  <img id="u67_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                  <div id="u67_text" class="text ">
+                    <p><span>58</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Connector) -->
+                <div id="u68" class="ax_default connector">
+                  <img id="u68_seg0" class="img " src="images/binary_search_tree/u68_seg0.svg" alt="u68_seg0"/>
+                  <div id="u68_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Connector) -->
+                <div id="u69" class="ax_default connector">
+                  <img id="u69_seg0" class="img " src="images/binary_search_tree/u69_seg0.svg" alt="u69_seg0"/>
+                  <div id="u69_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u70" class="ax_default ellipse">
+                <img id="u70_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                <div id="u70_text" class="text ">
+                  <p><span>88</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Connector) -->
+              <div id="u71" class="ax_default connector">
+                <img id="u71_seg0" class="img " src="images/binary_search_tree/u71_seg0.svg" alt="u71_seg0"/>
+                <div id="u71_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u72" class="ax_default ellipse">
+              <img id="u72_img" class="img " src="images/binary_search_tree/u2.svg"/>
+              <div id="u72_text" class="text ">
+                <p><span>42</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Connector) -->
+            <div id="u73" class="ax_default connector">
+              <img id="u73_seg0" class="img " src="images/binary_search_tree/u73_seg0.svg" alt="u73_seg0"/>
+              <div id="u73_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u74" class="ax_default ellipse">
+            <img id="u74_img" class="img " src="images/binary_search_tree/u2.svg"/>
+            <div id="u74_text" class="text ">
+              <p><span>15</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Connector) -->
+          <div id="u75" class="ax_default connector">
+            <img id="u75_seg0" class="img " src="images/binary_search_tree/u75_seg0.svg" alt="u75_seg0"/>
+            <div id="u75_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u76" class="ax_default ellipse">
+          <img id="u76_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u76_text" class="text ">
+            <p><span>63</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u77" class="ax_default connector">
+          <img id="u77_seg0" class="img " src="images/binary_search_tree/u77_seg0.svg" alt="u77_seg0"/>
+          <div id="u77_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u78" class="compound ax_default arrow" data-height="104" data-width="3" CompoundMode="true">
+        <img id="u78_img" class="singleImg img " src="images/binary_search_tree/u39.svg"/>
+        <div id="u78p000" class="ax_vector_shape" WidgetTopLeftX="-0.472727272727273" WidgetTopLeftY="0.166666666666667" WidgetTopRightX="-0.472727272727273" WidgetTopRightY="-0.333333333333333" WidgetBottomLeftX="0.472727272727273" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.472727272727273" WidgetBottomRightY="-0.333333333333333">
+          <img id="u78p000_img" class="img " src="images/binary_search_tree/u78p000.svg"/>
+        </div>
+        <div id="u78p001" class="ax_vector_shape" WidgetTopLeftX="-0.5" WidgetTopLeftY="0" WidgetTopRightX="0.25" WidgetTopRightY="0" WidgetBottomLeftX="-0.5" WidgetBottomLeftY="17.3333333333333" WidgetBottomRightX="0.25" WidgetBottomRightY="17.3333333333333">
+          <img id="u78p001_img" class="img " src="images/binary_search_tree/u78p001.svg"/>
+        </div>
+        <div id="u78p002" class="ax_vector_shape" WidgetTopLeftX="3.46428571428571" WidgetTopLeftY="-0.0714285714285714" WidgetTopRightX="3.46428571428571" WidgetTopRightY="0.0357142857142857" WidgetBottomLeftX="-0.25" WidgetBottomLeftY="-0.0714285714285714" WidgetBottomRightX="-0.25" WidgetBottomRightY="0.0357142857142857">
+          <img id="u78p002_img" class="img " src="images/binary_search_tree/u78p002.svg"/>
+        </div>
+        <div id="u78_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u79" class="ax_default label">
+        <div id="u79_div" class=""></div>
+        <div id="u79_text" class="text ">
+          <p><span>25&lt;75</span></p><p><span>25&lt;30</span></p><p><span>25&gt;15</span></p><p><span>right</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u80" class="ax_default" data-left="98" data-top="905" data-width="226" data-height="281" layer-opacity="1">
+
+        <!-- Unnamed (Group) -->
+        <div id="u81" class="ax_default" data-left="98" data-top="905" data-width="226" data-height="281" layer-opacity="1">
+
+          <!-- Unnamed (Group) -->
+          <div id="u82" class="ax_default" data-left="98" data-top="905" data-width="226" data-height="281" layer-opacity="1">
+
+            <!-- Unnamed (Group) -->
+            <div id="u83" class="ax_default" data-left="160" data-top="905" data-width="164" data-height="281" layer-opacity="1">
+
+              <!-- Unnamed (Group) -->
+              <div id="u84" class="ax_default" data-left="160" data-top="905" data-width="164" data-height="209" layer-opacity="1">
+
+                <!-- Unnamed (Group) -->
+                <div id="u85" class="ax_default" data-left="160" data-top="905" data-width="106" data-height="209" layer-opacity="1">
+
+                  <!-- Unnamed (Ellipse) -->
+                  <div id="u86" class="ax_default ellipse">
+                    <img id="u86_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                    <div id="u86_text" class="text ">
+                      <p><span>75</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Ellipse) -->
+                  <div id="u87" class="ax_default ellipse">
+                    <img id="u87_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                    <div id="u87_text" class="text ">
+                      <p><span>30</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Ellipse) -->
+                  <div id="u88" class="ax_default ellipse">
+                    <img id="u88_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                    <div id="u88_text" class="text ">
+                      <p><span>58</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Connector) -->
+                  <div id="u89" class="ax_default connector">
+                    <img id="u89_seg0" class="img " src="images/binary_search_tree/u89_seg0.svg" alt="u89_seg0"/>
+                    <div id="u89_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Connector) -->
+                  <div id="u90" class="ax_default connector">
+                    <img id="u90_seg0" class="img " src="images/binary_search_tree/u90_seg0.svg" alt="u90_seg0"/>
+                    <div id="u90_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Ellipse) -->
+                <div id="u91" class="ax_default ellipse">
+                  <img id="u91_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                  <div id="u91_text" class="text ">
+                    <p><span>88</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Connector) -->
+                <div id="u92" class="ax_default connector">
+                  <img id="u92_seg0" class="img " src="images/binary_search_tree/u92_seg0.svg" alt="u92_seg0"/>
+                  <div id="u92_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u93" class="ax_default ellipse">
+                <img id="u93_img" class="img " src="images/binary_search_tree/u2.svg"/>
+                <div id="u93_text" class="text ">
+                  <p><span>42</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Connector) -->
+              <div id="u94" class="ax_default connector">
+                <img id="u94_seg0" class="img " src="images/binary_search_tree/u94_seg0.svg" alt="u94_seg0"/>
+                <div id="u94_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u95" class="ax_default ellipse">
+              <img id="u95_img" class="img " src="images/binary_search_tree/u2.svg"/>
+              <div id="u95_text" class="text ">
+                <p><span>15</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Connector) -->
+            <div id="u96" class="ax_default connector">
+              <img id="u96_seg0" class="img " src="images/binary_search_tree/u96_seg0.svg" alt="u96_seg0"/>
+              <div id="u96_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u97" class="ax_default ellipse">
+            <img id="u97_img" class="img " src="images/binary_search_tree/u2.svg"/>
+            <div id="u97_text" class="text ">
+              <p><span>63</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Connector) -->
+          <div id="u98" class="ax_default connector">
+            <img id="u98_seg0" class="img " src="images/binary_search_tree/u98_seg0.svg" alt="u98_seg0"/>
+            <div id="u98_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u99" class="ax_default ellipse">
+          <img id="u99_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u99_text" class="text ">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u100" class="ax_default connector">
+          <img id="u100_seg0" class="img " src="images/binary_search_tree/u100_seg0.svg" alt="u100_seg0"/>
+          <div id="u100_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Line) -->
+      <div id="u101" class="compound ax_default arrow" data-height="3" data-width="107" CompoundMode="true">
+        <img id="u101_img" class="singleImg img " src="images/binary_search_tree/u4.svg"/>
+        <div id="u101p000" class="ax_vector_shape" WidgetTopLeftX="-0.473214285714286" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.482142857142857" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.473214285714286" WidgetBottomLeftY="0.333333333333333" WidgetBottomRightX="0.482142857142857" WidgetBottomRightY="0.333333333333333">
+          <img id="u101p000_img" class="img " src="images/binary_search_tree/u101p000.svg"/>
+        </div>
+        <div id="u101p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.5" WidgetTopRightX="17.8333333333333" WidgetTopRightY="-0.5" WidgetBottomLeftX="0" WidgetBottomLeftY="0.25" WidgetBottomRightX="17.8333333333333" WidgetBottomRightY="0.25">
+          <img id="u101p001_img" class="img " src="images/binary_search_tree/u101p001.svg"/>
+        </div>
+        <div id="u101p002" class="ax_vector_shape" WidgetTopLeftX="3.84615384615385" WidgetTopLeftY="0.0384615384615385" WidgetTopRightX="-0.269230769230769" WidgetTopRightY="0.0384615384615385" WidgetBottomLeftX="3.84615384615385" WidgetBottomLeftY="-0.0769230769230769" WidgetBottomRightX="-0.269230769230769" WidgetBottomRightY="-0.0769230769230769">
+          <img id="u101p002_img" class="img " src="images/binary_search_tree/u101p002.svg"/>
+        </div>
+        <div id="u101_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u102" class="ax_default label">
+        <div id="u102_div" class=""></div>
+        <div id="u102_text" class="text ">
+          <p><span>97&gt;75</span></p><p><span>97&gt;88</span></p><p><span>right</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u103" class="ax_default" data-left="503" data-top="916" data-width="290" data-height="281" layer-opacity="1">
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u104" class="ax_default ellipse">
+          <img id="u104_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u104_text" class="text ">
+            <p><span>75</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u105" class="ax_default ellipse">
+          <img id="u105_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u105_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u106" class="ax_default ellipse">
+          <img id="u106_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u106_text" class="text ">
+            <p><span>58</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u107" class="ax_default connector">
+          <img id="u107_seg0" class="img " src="images/binary_search_tree/u107_seg0.svg" alt="u107_seg0"/>
+          <div id="u107_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u108" class="ax_default connector">
+          <img id="u108_seg0" class="img " src="images/binary_search_tree/u108_seg0.svg" alt="u108_seg0"/>
+          <div id="u108_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u109" class="ax_default ellipse">
+          <img id="u109_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u109_text" class="text ">
+            <p><span>88</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u110" class="ax_default connector">
+          <img id="u110_seg0" class="img " src="images/binary_search_tree/u110_seg0.svg" alt="u110_seg0"/>
+          <div id="u110_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u111" class="ax_default ellipse">
+          <img id="u111_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u111_text" class="text ">
+            <p><span>42</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u112" class="ax_default connector">
+          <img id="u112_seg0" class="img " src="images/binary_search_tree/u112_seg0.svg" alt="u112_seg0"/>
+          <div id="u112_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u113" class="ax_default ellipse">
+          <img id="u113_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u113_text" class="text ">
+            <p><span>15</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u114" class="ax_default connector">
+          <img id="u114_seg0" class="img " src="images/binary_search_tree/u114_seg0.svg" alt="u114_seg0"/>
+          <div id="u114_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u115" class="ax_default ellipse">
+          <img id="u115_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u115_text" class="text ">
+            <p><span>63</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u116" class="ax_default connector">
+          <img id="u116_seg0" class="img " src="images/binary_search_tree/u116_seg0.svg" alt="u116_seg0"/>
+          <div id="u116_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u117" class="ax_default ellipse">
+          <img id="u117_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u117_text" class="text ">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u118" class="ax_default connector">
+          <img id="u118_seg0" class="img " src="images/binary_search_tree/u118_seg0.svg" alt="u118_seg0"/>
+          <div id="u118_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u119" class="ax_default ellipse">
+          <img id="u119_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u119_text" class="text ">
+            <p><span>97</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u120" class="ax_default connector">
+        <img id="u120_seg0" class="img " src="images/binary_search_tree/u120_seg0.svg" alt="u120_seg0"/>
+        <div id="u120_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Line) -->
+      <div id="u121" class="compound ax_default arrow" data-height="3" data-width="107" CompoundMode="true">
+        <img id="u121_img" class="singleImg img " src="images/binary_search_tree/u4.svg"/>
+        <div id="u121p000" class="ax_vector_shape" WidgetTopLeftX="-0.473214285714286" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.482142857142857" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.473214285714286" WidgetBottomLeftY="0.333333333333333" WidgetBottomRightX="0.482142857142857" WidgetBottomRightY="0.333333333333333">
+          <img id="u121p000_img" class="img " src="images/binary_search_tree/u121p000.svg"/>
+        </div>
+        <div id="u121p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.5" WidgetTopRightX="17.8333333333333" WidgetTopRightY="-0.5" WidgetBottomLeftX="0" WidgetBottomLeftY="0.25" WidgetBottomRightX="17.8333333333333" WidgetBottomRightY="0.25">
+          <img id="u121p001_img" class="img " src="images/binary_search_tree/u121p001.svg"/>
+        </div>
+        <div id="u121p002" class="ax_vector_shape" WidgetTopLeftX="3.84615384615385" WidgetTopLeftY="0.0384615384615385" WidgetTopRightX="-0.269230769230769" WidgetTopRightY="0.0384615384615385" WidgetBottomLeftX="3.84615384615385" WidgetBottomLeftY="-0.0769230769230769" WidgetBottomRightX="-0.269230769230769" WidgetBottomRightY="-0.0769230769230769">
+          <img id="u121p002_img" class="img " src="images/binary_search_tree/u121p002.svg"/>
+        </div>
+        <div id="u121_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u122" class="ax_default label">
+        <div id="u122_div" class=""></div>
+        <div id="u122_text" class="text ">
+          <p><span>10&lt;75</span></p><p><span>10&lt;30</span></p><p><span>10&lt;15</span></p><p><span>left</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u123" class="ax_default" data-left="906" data-top="916" data-width="339" data-height="281" layer-opacity="1">
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u124" class="ax_default ellipse">
+          <img id="u124_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u124_text" class="text ">
+            <p><span>75</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u125" class="ax_default ellipse">
+          <img id="u125_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u125_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u126" class="ax_default ellipse">
+          <img id="u126_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u126_text" class="text ">
+            <p><span>58</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u127" class="ax_default connector">
+          <img id="u127_seg0" class="img " src="images/binary_search_tree/u127_seg0.svg" alt="u127_seg0"/>
+          <div id="u127_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u128" class="ax_default connector">
+          <img id="u128_seg0" class="img " src="images/binary_search_tree/u128_seg0.svg" alt="u128_seg0"/>
+          <div id="u128_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u129" class="ax_default ellipse">
+          <img id="u129_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u129_text" class="text ">
+            <p><span>88</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u130" class="ax_default connector">
+          <img id="u130_seg0" class="img " src="images/binary_search_tree/u130_seg0.svg" alt="u130_seg0"/>
+          <div id="u130_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u131" class="ax_default ellipse">
+          <img id="u131_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u131_text" class="text ">
+            <p><span>42</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u132" class="ax_default connector">
+          <img id="u132_seg0" class="img " src="images/binary_search_tree/u132_seg0.svg" alt="u132_seg0"/>
+          <div id="u132_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u133" class="ax_default ellipse">
+          <img id="u133_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u133_text" class="text ">
+            <p><span>15</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u134" class="ax_default connector">
+          <img id="u134_seg0" class="img " src="images/binary_search_tree/u134_seg0.svg" alt="u134_seg0"/>
+          <div id="u134_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u135" class="ax_default ellipse">
+          <img id="u135_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u135_text" class="text ">
+            <p><span>63</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u136" class="ax_default connector">
+          <img id="u136_seg0" class="img " src="images/binary_search_tree/u136_seg0.svg" alt="u136_seg0"/>
+          <div id="u136_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u137" class="ax_default ellipse">
+          <img id="u137_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u137_text" class="text ">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u138" class="ax_default connector">
+          <img id="u138_seg0" class="img " src="images/binary_search_tree/u138_seg0.svg" alt="u138_seg0"/>
+          <div id="u138_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u139" class="ax_default ellipse">
+          <img id="u139_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u139_text" class="text ">
+            <p><span>97</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u140" class="ax_default ellipse">
+          <img id="u140_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u140_text" class="text ">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u141" class="ax_default connector">
+          <img id="u141_seg0" class="img " src="images/binary_search_tree/u141_seg0.svg" alt="u141_seg0"/>
+          <div id="u141_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u142" class="ax_default connector">
+          <img id="u142_seg0" class="img " src="images/binary_search_tree/u142_seg0.svg" alt="u142_seg0"/>
+          <div id="u142_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u143" class="compound ax_default arrow" data-height="104" data-width="3" CompoundMode="true">
+        <img id="u143_img" class="singleImg img " src="images/binary_search_tree/u39.svg"/>
+        <div id="u143p000" class="ax_vector_shape" WidgetTopLeftX="-0.472727272727273" WidgetTopLeftY="0.5" WidgetTopRightX="-0.472727272727273" WidgetTopRightY="-0.25" WidgetBottomLeftX="0.472727272727273" WidgetBottomLeftY="0.5" WidgetBottomRightX="0.472727272727273" WidgetBottomRightY="-0.25">
+          <img id="u143p000_img" class="img " src="images/binary_search_tree/u143p000.svg"/>
+        </div>
+        <div id="u143p001" class="ax_vector_shape" WidgetTopLeftX="-0.333333333333333" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.166666666666667" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.333333333333333" WidgetBottomLeftY="17.1666666666667" WidgetBottomRightX="0.166666666666667" WidgetBottomRightY="17.1666666666667">
+          <img id="u143p001_img" class="img " src="images/binary_search_tree/u143p001.svg"/>
+        </div>
+        <div id="u143p002" class="ax_vector_shape" WidgetTopLeftX="3.46428571428571" WidgetTopLeftY="-0.0384615384615385" WidgetTopRightX="3.46428571428571" WidgetTopRightY="0.0769230769230769" WidgetBottomLeftX="-0.25" WidgetBottomLeftY="-0.0384615384615385" WidgetBottomRightX="-0.25" WidgetBottomRightY="0.0769230769230769">
+          <img id="u143p002_img" class="img " src="images/binary_search_tree/u143p002.svg"/>
+        </div>
+        <div id="u143_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u144" class="ax_default label">
+        <div id="u144_div" class=""></div>
+        <div id="u144_text" class="text ">
+          <p><span>83&gt;75</span></p><p><span>83&lt;88</span></p><p><span>left</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u145" class="ax_default" data-left="921" data-top="1334" data-width="339" data-height="281" layer-opacity="1">
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u146" class="ax_default ellipse">
+          <img id="u146_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u146_text" class="text ">
+            <p><span>75</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u147" class="ax_default ellipse">
+          <img id="u147_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u147_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u148" class="ax_default ellipse">
+          <img id="u148_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u148_text" class="text ">
+            <p><span>58</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u149" class="ax_default connector">
+          <img id="u149_seg0" class="img " src="images/binary_search_tree/u149_seg0.svg" alt="u149_seg0"/>
+          <div id="u149_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u150" class="ax_default connector">
+          <img id="u150_seg0" class="img " src="images/binary_search_tree/u150_seg0.svg" alt="u150_seg0"/>
+          <div id="u150_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u151" class="ax_default ellipse">
+          <img id="u151_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u151_text" class="text ">
+            <p><span>88</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u152" class="ax_default connector">
+          <img id="u152_seg0" class="img " src="images/binary_search_tree/u152_seg0.svg" alt="u152_seg0"/>
+          <div id="u152_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u153" class="ax_default ellipse">
+          <img id="u153_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u153_text" class="text ">
+            <p><span>42</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u154" class="ax_default connector">
+          <img id="u154_seg0" class="img " src="images/binary_search_tree/u154_seg0.svg" alt="u154_seg0"/>
+          <div id="u154_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u155" class="ax_default ellipse">
+          <img id="u155_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u155_text" class="text ">
+            <p><span>15</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u156" class="ax_default connector">
+          <img id="u156_seg0" class="img " src="images/binary_search_tree/u156_seg0.svg" alt="u156_seg0"/>
+          <div id="u156_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u157" class="ax_default ellipse">
+          <img id="u157_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u157_text" class="text ">
+            <p><span>63</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u158" class="ax_default connector">
+          <img id="u158_seg0" class="img " src="images/binary_search_tree/u158_seg0.svg" alt="u158_seg0"/>
+          <div id="u158_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u159" class="ax_default ellipse">
+          <img id="u159_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u159_text" class="text ">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u160" class="ax_default connector">
+          <img id="u160_seg0" class="img " src="images/binary_search_tree/u160_seg0.svg" alt="u160_seg0"/>
+          <div id="u160_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u161" class="ax_default ellipse">
+          <img id="u161_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u161_text" class="text ">
+            <p><span>97</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u162" class="ax_default ellipse">
+          <img id="u162_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u162_text" class="text ">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u163" class="ax_default connector">
+          <img id="u163_seg0" class="img " src="images/binary_search_tree/u163_seg0.svg" alt="u163_seg0"/>
+          <div id="u163_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u164" class="ax_default connector">
+          <img id="u164_seg0" class="img " src="images/binary_search_tree/u164_seg0.svg" alt="u164_seg0"/>
+          <div id="u164_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u165" class="ax_default ellipse">
+          <img id="u165_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u165_text" class="text ">
+            <p><span>83</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u166" class="ax_default connector">
+          <img id="u166_seg0" class="img " src="images/binary_search_tree/u166_seg0.svg" alt="u166_seg0"/>
+          <div id="u166_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Line) -->
+      <div id="u167" class="compound ax_default arrow" data-height="3" data-width="132" CompoundMode="true">
+        <img id="u167_img" class="singleImg img " src="images/binary_search_tree/u41.svg"/>
+        <div id="u167p000" class="ax_vector_shape" WidgetTopLeftX="-0.464693727491207" WidgetTopLeftY="-0.150763291114753" WidgetTopRightX="0.464856236226124" WidgetTopRightY="-0.0492278335394766" WidgetBottomLeftX="-0.464856236226123" WidgetBottomLeftY="0.149227833539477" WidgetBottomRightX="0.464693727491208" WidgetBottomRightY="0.250763291114753">
+          <img id="u167p000_img" class="img " src="images/binary_search_tree/u167p000.svg"/>
+        </div>
+        <div id="u167p001" class="ax_vector_shape" WidgetTopLeftX="-0.00224844937476594" WidgetTopLeftY="0.251272151857923" WidgetTopRightX="-22.0015975906849" WidgetTopRightY="0.0820463892324597" WidgetBottomLeftX="0.00159759068490454" WidgetBottomLeftY="-0.248713055899126" WidgetBottomRightX="-21.9977515506253" WidgetBottomRightY="-0.41793881852459">
+          <img id="u167p001_img" class="img " src="images/binary_search_tree/u167p001.svg"/>
+        </div>
+        <div id="u167p002" class="ax_vector_shape" WidgetTopLeftX="4.46380390370541" WidgetTopLeftY="0.0895583182552692" WidgetTopRightX="-0.250342340861055" WidgetTopRightY="0.0532956548355271" WidgetBottomLeftX="4.46462805514677" WidgetBottomLeftY="-0.0175813691212414" WidgetBottomRightX="-0.249518189419697" WidgetBottomRightY="-0.0538440325409835">
+          <img id="u167p002_img" class="img " src="images/binary_search_tree/u167p002.svg"/>
+        </div>
+        <div id="u167_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u168" class="ax_default ellipse">
+        <img id="u168_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u168_text" class="text ">
+          <p><span>75</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u169" class="ax_default ellipse">
+        <img id="u169_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u169_text" class="text ">
+          <p><span>30</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u170" class="ax_default ellipse">
+        <img id="u170_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u170_text" class="text ">
+          <p><span>58</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u171" class="ax_default connector">
+        <img id="u171_seg0" class="img " src="images/binary_search_tree/u171_seg0.svg" alt="u171_seg0"/>
+        <div id="u171_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u172" class="ax_default connector">
+        <img id="u172_seg0" class="img " src="images/binary_search_tree/u172_seg0.svg" alt="u172_seg0"/>
+        <div id="u172_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u173" class="ax_default ellipse">
+        <img id="u173_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u173_text" class="text ">
+          <p><span>88</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u174" class="ax_default connector">
+        <img id="u174_seg0" class="img " src="images/binary_search_tree/u174_seg0.svg" alt="u174_seg0"/>
+        <div id="u174_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u175" class="ax_default ellipse">
+        <img id="u175_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u175_text" class="text ">
+          <p><span>42</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u176" class="ax_default connector">
+        <img id="u176_seg0" class="img " src="images/binary_search_tree/u176_seg0.svg" alt="u176_seg0"/>
+        <div id="u176_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u177" class="ax_default ellipse">
+        <img id="u177_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u177_text" class="text ">
+          <p><span>15</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u178" class="ax_default connector">
+        <img id="u178_seg0" class="img " src="images/binary_search_tree/u178_seg0.svg" alt="u178_seg0"/>
+        <div id="u178_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u179" class="ax_default ellipse">
+        <img id="u179_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u179_text" class="text ">
+          <p><span>63</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u180" class="ax_default connector">
+        <img id="u180_seg0" class="img " src="images/binary_search_tree/u180_seg0.svg" alt="u180_seg0"/>
+        <div id="u180_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u181" class="ax_default ellipse">
+        <img id="u181_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u181_text" class="text ">
+          <p><span>25</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u182" class="ax_default connector">
+        <img id="u182_seg0" class="img " src="images/binary_search_tree/u182_seg0.svg" alt="u182_seg0"/>
+        <div id="u182_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u183" class="ax_default ellipse">
+        <img id="u183_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u183_text" class="text ">
+          <p><span>97</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u184" class="ax_default ellipse">
+        <img id="u184_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u184_text" class="text ">
+          <p><span>10</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u185" class="ax_default connector">
+        <img id="u185_seg0" class="img " src="images/binary_search_tree/u185_seg0.svg" alt="u185_seg0"/>
+        <div id="u185_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u186" class="ax_default connector">
+        <img id="u186_seg0" class="img " src="images/binary_search_tree/u186_seg0.svg" alt="u186_seg0"/>
+        <div id="u186_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u187" class="ax_default ellipse">
+        <img id="u187_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u187_text" class="text ">
+          <p><span>83</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u188" class="ax_default connector">
+        <img id="u188_seg0" class="img " src="images/binary_search_tree/u188_seg0.svg" alt="u188_seg0"/>
+        <div id="u188_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u189" class="ax_default label">
+        <div id="u189_div" class=""></div>
+        <div id="u189_text" class="text ">
+          <p><span>50&lt;75</span></p><p><span>50&gt;30</span></p><p><span>50&lt;58</span></p><p><span>50&gt;42</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u190" class="ax_default ellipse">
+        <img id="u190_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u190_text" class="text ">
+          <p><span>50</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u191" class="ax_default connector">
+        <img id="u191_seg0" class="img " src="images/binary_search_tree/u191_seg0.svg" alt="u191_seg0"/>
+        <div id="u191_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u192" class="ax_default heading_3">
+        <div id="u192_div" class=""></div>
+        <div id="u192_text" class="text ">
+          <p><span style="color:#D9001B;">Question2:</span><span> Now delete the element 58 from the binary search tree created in the previous question and show the resulting tree</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u193" class="ax_default" data-left="127" data-top="1800" data-width="339" data-height="281" layer-opacity="1">
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u194" class="ax_default ellipse">
+          <img id="u194_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u194_text" class="text ">
+            <p><span>75</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u195" class="ax_default ellipse">
+          <img id="u195_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u195_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u196" class="ax_default ellipse">
+          <img id="u196_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u196_text" class="text ">
+            <p><span>58</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u197" class="ax_default connector">
+          <img id="u197_seg0" class="img " src="images/binary_search_tree/u197_seg0.svg" alt="u197_seg0"/>
+          <div id="u197_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u198" class="ax_default connector">
+          <img id="u198_seg0" class="img " src="images/binary_search_tree/u198_seg0.svg" alt="u198_seg0"/>
+          <div id="u198_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u199" class="ax_default ellipse">
+          <img id="u199_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u199_text" class="text ">
+            <p><span>88</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u200" class="ax_default connector">
+          <img id="u200_seg0" class="img " src="images/binary_search_tree/u200_seg0.svg" alt="u200_seg0"/>
+          <div id="u200_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u201" class="ax_default ellipse">
+          <img id="u201_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u201_text" class="text ">
+            <p><span>42</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u202" class="ax_default connector">
+          <img id="u202_seg0" class="img " src="images/binary_search_tree/u202_seg0.svg" alt="u202_seg0"/>
+          <div id="u202_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u203" class="ax_default ellipse">
+          <img id="u203_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u203_text" class="text ">
+            <p><span>15</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u204" class="ax_default connector">
+          <img id="u204_seg0" class="img " src="images/binary_search_tree/u204_seg0.svg" alt="u204_seg0"/>
+          <div id="u204_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u205" class="ax_default ellipse">
+          <img id="u205_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u205_text" class="text ">
+            <p><span>63</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u206" class="ax_default connector">
+          <img id="u206_seg0" class="img " src="images/binary_search_tree/u206_seg0.svg" alt="u206_seg0"/>
+          <div id="u206_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u207" class="ax_default ellipse">
+          <img id="u207_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u207_text" class="text ">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u208" class="ax_default connector">
+          <img id="u208_seg0" class="img " src="images/binary_search_tree/u208_seg0.svg" alt="u208_seg0"/>
+          <div id="u208_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u209" class="ax_default ellipse">
+          <img id="u209_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u209_text" class="text ">
+            <p><span>97</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u210" class="ax_default ellipse">
+          <img id="u210_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u210_text" class="text ">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u211" class="ax_default connector">
+          <img id="u211_seg0" class="img " src="images/binary_search_tree/u211_seg0.svg" alt="u211_seg0"/>
+          <div id="u211_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u212" class="ax_default connector">
+          <img id="u212_seg0" class="img " src="images/binary_search_tree/u212_seg0.svg" alt="u212_seg0"/>
+          <div id="u212_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u213" class="ax_default ellipse">
+          <img id="u213_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u213_text" class="text ">
+            <p><span>83</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u214" class="ax_default connector">
+          <img id="u214_seg0" class="img " src="images/binary_search_tree/u214_seg0.svg" alt="u214_seg0"/>
+          <div id="u214_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Line) -->
+      <div id="u215" class="compound ax_default arrow" data-height="3" data-width="159" CompoundMode="true">
+        <img id="u215_img" class="singleImg img " src="images/binary_search_tree/u215.svg"/>
+        <div id="u215p000" class="ax_vector_shape" WidgetTopLeftX="-0.48780487804878" WidgetTopLeftY="-0.166666666666667" WidgetTopRightX="0.481707317073171" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="-0.48780487804878" WidgetBottomLeftY="0.333333333333333" WidgetBottomRightX="0.481707317073171" WidgetBottomRightY="0.333333333333333">
+          <img id="u215p000_img" class="img " src="images/binary_search_tree/u215p000.svg"/>
+        </div>
+        <div id="u215p001" class="ax_vector_shape" WidgetTopLeftX="-0.166666666666667" WidgetTopLeftY="-0.5" WidgetTopRightX="26.3333333333333" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.166666666666667" WidgetBottomLeftY="0.25" WidgetBottomRightX="26.3333333333333" WidgetBottomRightY="0.25">
+          <img id="u215p001_img" class="img " src="images/binary_search_tree/u215p001.svg"/>
+        </div>
+        <div id="u215p002" class="ax_vector_shape" WidgetTopLeftX="5.42857142857143" WidgetTopLeftY="0.0384615384615385" WidgetTopRightX="-0.25" WidgetTopRightY="0.0384615384615385" WidgetBottomLeftX="5.42857142857143" WidgetBottomLeftY="-0.0769230769230769" WidgetBottomRightX="-0.25" WidgetBottomRightY="-0.0769230769230769">
+          <img id="u215p002_img" class="img " src="images/binary_search_tree/u215p002.svg"/>
+        </div>
+        <div id="u215_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u216" class="ax_default label">
+        <div id="u216_div" class=""></div>
+        <div id="u216_text" class="text ">
+          <p><span>delete 58</span></p><p><span>node 58 has sub right tree</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u217" class="ax_default" data-left="646" data-top="1813" data-width="372" data-height="281" layer-opacity="1">
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u218" class="ax_default ellipse">
+          <img id="u218_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u218_text" class="text ">
+            <p><span>75</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u219" class="ax_default ellipse">
+          <img id="u219_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u219_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u220" class="ax_default ellipse">
+          <img id="u220_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u220_text" class="text ">
+            <p><span>58</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u221" class="ax_default connector">
+          <img id="u221_seg0" class="img " src="images/binary_search_tree/u221_seg0.svg" alt="u221_seg0"/>
+          <div id="u221_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u222" class="ax_default connector">
+          <img id="u222_seg0" class="img " src="images/binary_search_tree/u222_seg0.svg" alt="u222_seg0"/>
+          <div id="u222_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u223" class="ax_default ellipse">
+          <img id="u223_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u223_text" class="text ">
+            <p><span>88</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u224" class="ax_default connector">
+          <img id="u224_seg0" class="img " src="images/binary_search_tree/u224_seg0.svg" alt="u224_seg0"/>
+          <div id="u224_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u225" class="ax_default ellipse">
+          <img id="u225_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u225_text" class="text ">
+            <p><span>42</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u226" class="ax_default connector">
+          <img id="u226_seg0" class="img " src="images/binary_search_tree/u226_seg0.svg" alt="u226_seg0"/>
+          <div id="u226_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u227" class="ax_default ellipse">
+          <img id="u227_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u227_text" class="text ">
+            <p><span>15</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u228" class="ax_default connector">
+          <img id="u228_seg0" class="img " src="images/binary_search_tree/u228_seg0.svg" alt="u228_seg0"/>
+          <div id="u228_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u229" class="ax_default ellipse">
+          <img id="u229_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u229_text" class="text ">
+            <p><span>63</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u230" class="ax_default connector">
+          <img id="u230_seg0" class="img " src="images/binary_search_tree/u230_seg0.svg" alt="u230_seg0"/>
+          <div id="u230_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u231" class="ax_default ellipse">
+          <img id="u231_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u231_text" class="text ">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u232" class="ax_default connector">
+          <img id="u232_seg0" class="img " src="images/binary_search_tree/u232_seg0.svg" alt="u232_seg0"/>
+          <div id="u232_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u233" class="ax_default ellipse">
+          <img id="u233_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u233_text" class="text ">
+            <p><span>97</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u234" class="ax_default ellipse">
+          <img id="u234_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u234_text" class="text ">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u235" class="ax_default connector">
+          <img id="u235_seg0" class="img " src="images/binary_search_tree/u235_seg0.svg" alt="u235_seg0"/>
+          <div id="u235_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u236" class="ax_default connector">
+          <img id="u236_seg0" class="img " src="images/binary_search_tree/u236_seg0.svg" alt="u236_seg0"/>
+          <div id="u236_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u237" class="ax_default ellipse">
+          <img id="u237_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u237_text" class="text ">
+            <p><span>83</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u238" class="ax_default connector">
+          <img id="u238_seg0" class="img " src="images/binary_search_tree/u238_seg0.svg" alt="u238_seg0"/>
+          <div id="u238_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u239" class="ax_default ellipse">
+        <img id="u239_img" class="img " src="images/binary_search_tree/u239.svg"/>
+        <div id="u239_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Line) -->
+      <div id="u240" class="compound ax_default arrow" data-height="3" data-width="159" CompoundMode="true">
+        <img id="u240_img" class="singleImg img " src="images/binary_search_tree/u215.svg"/>
+        <div id="u240p000" class="ax_vector_shape" WidgetTopLeftX="-0.481707317073171" WidgetTopLeftY="-0.333333333333333" WidgetTopRightX="0.48780487804878" WidgetTopRightY="-0.333333333333333" WidgetBottomLeftX="-0.481707317073171" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.48780487804878" WidgetBottomRightY="0.166666666666667">
+          <img id="u240p000_img" class="img " src="images/binary_search_tree/u240p000.svg"/>
+        </div>
+        <div id="u240p001" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-0.333333333333333" WidgetTopRightX="26.5" WidgetTopRightY="-0.333333333333333" WidgetBottomLeftX="0" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="26.5" WidgetBottomRightY="0.166666666666667">
+          <img id="u240p001_img" class="img " src="images/binary_search_tree/u240p001.svg"/>
+        </div>
+        <div id="u240p002" class="ax_vector_shape" WidgetTopLeftX="5.84615384615385" WidgetTopLeftY="0.0769230769230769" WidgetTopRightX="-0.269230769230769" WidgetTopRightY="0.0769230769230769" WidgetBottomLeftX="5.84615384615385" WidgetBottomLeftY="-0.0384615384615385" WidgetBottomRightX="-0.269230769230769" WidgetBottomRightY="-0.0384615384615385">
+          <img id="u240p002_img" class="img " src="images/binary_search_tree/u240p002.svg"/>
+        </div>
+        <div id="u240_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u241" class="ax_default label">
+        <div id="u241_div" class=""></div>
+        <div id="u241_text" class="text ">
+          <p><span>delete 58</span></p><p><span>node 58 has sub right tree</span></p><p><span>min(subtree)</span></p><p><span>63 is the successor</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u242" class="ax_default" data-left="1197" data-top="1824" data-width="372" data-height="281" layer-opacity="1">
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u243" class="ax_default ellipse">
+          <img id="u243_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u243_text" class="text ">
+            <p><span>75</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u244" class="ax_default ellipse">
+          <img id="u244_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u244_text" class="text ">
+            <p><span>30</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u245" class="ax_default ellipse">
+          <img id="u245_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u245_text" class="text ">
+            <p><span>63</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u246" class="ax_default connector">
+          <img id="u246_seg0" class="img " src="images/binary_search_tree/u246_seg0.svg" alt="u246_seg0"/>
+          <div id="u246_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u247" class="ax_default connector">
+          <img id="u247_seg0" class="img " src="images/binary_search_tree/u247_seg0.svg" alt="u247_seg0"/>
+          <div id="u247_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u248" class="ax_default ellipse">
+          <img id="u248_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u248_text" class="text ">
+            <p><span>88</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u249" class="ax_default connector">
+          <img id="u249_seg0" class="img " src="images/binary_search_tree/u249_seg0.svg" alt="u249_seg0"/>
+          <div id="u249_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u250" class="ax_default ellipse">
+          <img id="u250_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u250_text" class="text ">
+            <p><span>15</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u251" class="ax_default connector">
+          <img id="u251_seg0" class="img " src="images/binary_search_tree/u251_seg0.svg" alt="u251_seg0"/>
+          <div id="u251_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u252" class="ax_default ellipse">
+          <img id="u252_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u252_text" class="text ">
+            <p><span>42</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u253" class="ax_default connector">
+          <img id="u253_seg0" class="img " src="images/binary_search_tree/u253_seg0.svg" alt="u253_seg0"/>
+          <div id="u253_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u254" class="ax_default ellipse">
+          <img id="u254_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u254_text" class="text ">
+            <p><span>25</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u255" class="ax_default connector">
+          <img id="u255_seg0" class="img " src="images/binary_search_tree/u255_seg0.svg" alt="u255_seg0"/>
+          <div id="u255_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u256" class="ax_default ellipse">
+          <img id="u256_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u256_text" class="text ">
+            <p><span>97</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u257" class="ax_default ellipse">
+          <img id="u257_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u257_text" class="text ">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u258" class="ax_default connector">
+          <img id="u258_seg0" class="img " src="images/binary_search_tree/u258_seg0.svg" alt="u258_seg0"/>
+          <div id="u258_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u259" class="ax_default connector">
+          <img id="u259_seg0" class="img " src="images/binary_search_tree/u259_seg0.svg" alt="u259_seg0"/>
+          <div id="u259_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u260" class="ax_default ellipse">
+          <img id="u260_img" class="img " src="images/binary_search_tree/u2.svg"/>
+          <div id="u260_text" class="text ">
+            <p><span>83</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Connector) -->
+        <div id="u261" class="ax_default connector">
+          <img id="u261_seg0" class="img " src="images/binary_search_tree/u261_seg0.svg" alt="u261_seg0"/>
+          <div id="u261_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u262" class="ax_default ellipse">
+        <img id="u262_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u262_text" class="text ">
+          <p><span>50</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u263" class="ax_default connector">
+        <img id="u263_seg0" class="img " src="images/binary_search_tree/u263_seg0.svg" alt="u263_seg0"/>
+        <div id="u263_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u264" class="ax_default ellipse">
+        <img id="u264_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u264_text" class="text ">
+          <p><span>50</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u265" class="ax_default connector">
+        <img id="u265_seg0" class="img " src="images/binary_search_tree/u265_seg0.svg" alt="u265_seg0"/>
+        <div id="u265_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u266" class="ax_default ellipse">
+        <img id="u266_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u266_text" class="text ">
+          <p><span>50</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u267" class="ax_default connector">
+        <img id="u267_seg0" class="img " src="images/binary_search_tree/u267_seg0.svg" alt="u267_seg0"/>
+        <div id="u267_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u268" class="ax_default ellipse">
+        <img id="u268_img" class="img " src="images/binary_search_tree/u2.svg"/>
+        <div id="u268_text" class="text ">
+          <p><span>50</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u269" class="ax_default connector">
+        <img id="u269_seg0" class="img " src="images/binary_search_tree/u269_seg0.svg" alt="u269_seg0"/>
+        <div id="u269_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
