@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="94px" height="4px" preserveAspectRatio="xMinYMid meet" viewBox="698 1101  94 2" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(0.0174524064372584 -0.999847695156435 0.999847695156391 0.0174524064372838 -369.8342028581 1827.65398099766 )">
-    <path d="M 783 1109.6  L 790 1102  L 783 1094.4  L 783 1109.6  Z " fill-rule="nonzero" fill="#797979" stroke="none" transform="matrix(0.0159776378000296 0.999872349397827 -0.999872349397827 0.0159776378000296 1835.44800005648 338.987806668287 )" />
-    <path d="M 701 1102  L 784 1102  " stroke-width="2" stroke="#797979" fill="none" transform="matrix(0.0159776378000296 0.999872349397827 -0.999872349397827 0.0159776378000296 1835.44800005648 338.987806668287 )" />
-  </g>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="106px" height="6px" preserveAspectRatio="xMinYMid meet" viewBox="412 1047  106 4" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 508 1056.6  L 515 1049  L 508 1041.4  L 508 1056.6  Z " fill-rule="nonzero" fill="#797979" stroke="none" transform="matrix(0.999996914642675 0.0024840904028504 -0.0024840904028504 0.999996914642675 2.60724552374597 -1.15186549749205 )" />
+  <path d="M 415 1049  L 509 1049  " stroke-width="2" stroke="#797979" fill="none" transform="matrix(0.999996914642675 0.0024840904028504 -0.0024840904028504 0.999996914642675 2.60724552374597 -1.15186549749205 )" />
 </svg>
