@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="24px" preserveAspectRatio="xMinYMid meet" viewBox="738 739  26 22" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(-0.829037572555039 0.559192903470749 -0.559192903470747 -0.829037572555038 1793.0018945919 951.824308909746 )">
-    <path d="M 754 743.6  L 761 736  L 754 728.4  L 754 743.6  Z " fill-rule="nonzero" fill="#d9001b" stroke="none" transform="matrix(0.833205022200819 0.552964185982539 -0.552964185982539 0.833205022200819 528.575179698751 -280.349787921074 )" />
-    <path d="M 697 736  L 755 736  " stroke-width="2" stroke="#d9001b" fill="none" transform="matrix(0.833205022200819 0.552964185982539 -0.552964185982539 0.833205022200819 528.575179698751 -280.349787921074 )" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="24px" preserveAspectRatio="xMinYMid meet" viewBox="568 579  26 22" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(-0.777145961456972 0.629320391049835 -0.629320391049836 -0.777145961456974 1403.8208343259 682.880970059661 )">
+    <path d="M 586 581.6  L 593 574  L 586 566.4  L 586 581.6  Z " fill-rule="nonzero" fill="#d9001b" stroke="none" transform="matrix(0.782344486134812 0.622845972142757 -0.622845972142757 0.782344486134812 479.618331288313 -224.482325413469 )" />
+    <path d="M 529 574  L 587 574  " stroke-width="2" stroke="#d9001b" fill="none" transform="matrix(0.782344486134812 0.622845972142757 -0.622845972142757 0.782344486134812 479.618331288313 -224.482325413469 )" />
   </g>
 </svg>
